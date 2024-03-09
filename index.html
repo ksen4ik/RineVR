@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rine VR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img class="header-girl-bg" src="assets/images/girl.png" alt="Rine VR">
+      <div class="header__container _container">
+        <div class="header__content">
+          <div class="header__nav">
+            <img src="assets/icons/logo.svg" alt="Rine VR">
+            <ul class="header__menu">
+              <li><a href="#explore">Explore</a></li>
+              <li><a href="#utility">Utility</a></li>
+              <li><a href="#roadmap">Roadmap</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Let’s talk</a></li>
+            </ul>
+            <div class="header__btns">
+              <div class="header__twitter">
+                <svg width="32" height="27" viewBox="0 0 32 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.1157 26.4999C22.0854 26.4999 28.6312 16.498 28.6312 7.82472C28.6312 7.54066 28.6255 7.25789 28.6128 6.9763C29.8864 6.04682 30.9856 4.8959 31.8589 3.5775C30.6929 4.10031 29.4381 4.45221 28.1219 4.61088C29.4654 3.79821 30.4968 2.51287 30.9835 0.980513C29.706 1.7449 28.3085 2.28371 26.8512 2.57374C25.6637 1.29796 23.9732 0.5 22.1011 0.5C18.5074 0.5 15.5932 3.43944 15.5932 7.06272C15.5932 7.5778 15.6503 8.07882 15.762 8.55933C10.3535 8.28483 5.55757 5.67303 2.34789 1.70161C1.76981 2.7032 1.46572 3.84163 1.46671 5.00057C1.46671 7.27775 2.61558 9.28805 4.36261 10.4641C3.32923 10.4323 2.31851 10.1508 1.41541 9.64317C1.41445 9.67076 1.41445 9.6976 1.41445 9.72701C1.41445 12.9057 3.65758 15.5597 6.63523 16.1611C6.07598 16.3148 5.4989 16.3925 4.91927 16.3922C4.50879 16.3919 4.09926 16.3522 3.69622 16.2737C4.52471 18.8817 6.92707 20.7795 9.7753 20.8325C7.54802 22.5933 4.74227 23.642 1.69288 23.642C1.16826 23.642 0.650026 23.612 0.140625 23.5512C3.02067 25.4132 6.44045 26.4996 10.116 26.4996" fill="white"/>
+                </svg>
+              </div>
+              <div class="header__discord">
+                <svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.529 0.333496H3.47122C1.86411 0.333496 0.555664 1.68283 0.555664 3.35483V23.1842C0.555664 24.8562 1.86411 26.2055 3.47122 26.2055H19.5992L18.8454 23.4922L20.6659 25.2375L22.3868 26.8802L25.4446 29.6668V3.35483C25.4446 1.68283 24.1361 0.333496 22.529 0.333496ZM17.0392 19.4882C17.0392 19.4882 16.5272 18.8575 16.1006 18.3002C17.9637 17.7575 18.6748 16.5548 18.6748 16.5548C18.0917 16.9508 17.537 17.2295 17.0392 17.4202C16.3281 17.7282 15.6454 17.9335 14.977 18.0508C13.6117 18.3148 12.3601 18.2415 11.2934 18.0362C10.4828 17.8748 9.78589 17.6402 9.20278 17.4055C8.87566 17.2735 8.52011 17.1122 8.16455 16.9068C8.12189 16.8775 8.07922 16.8628 8.03655 16.8335C8.00811 16.8188 7.99389 16.8042 7.97966 16.7895C7.72366 16.6428 7.58144 16.5402 7.58144 16.5402C7.58144 16.5402 8.26411 17.7135 10.0703 18.2708C9.64366 18.8282 9.11744 19.4882 9.11744 19.4882C5.97433 19.3855 4.77966 17.2588 4.77966 17.2588C4.77966 12.5362 6.82766 8.70816 6.82766 8.70816C8.87566 7.12416 10.8241 7.16816 10.8241 7.16816L10.9663 7.34416C8.40633 8.10683 7.22589 9.2655 7.22589 9.2655C7.22589 9.2655 7.53878 9.0895 8.065 8.84016C9.58677 8.15083 10.7957 7.96016 11.2934 7.91616C11.3788 7.9015 11.4499 7.88683 11.5352 7.88683C12.4028 7.7695 13.3841 7.74016 14.4081 7.8575C15.7592 8.01883 17.2099 8.4295 18.689 9.2655C18.689 9.2655 17.5654 8.1655 15.1477 7.40283L15.3468 7.16816C15.3468 7.16816 17.2952 7.12416 19.3432 8.70816C19.3432 8.70816 21.3912 12.5362 21.3912 17.2588C21.3912 17.2588 20.1823 19.3855 17.0392 19.4882Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="header__buy">
+                <div class="header__buy-inner">
+                  <span>buy now</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__welcome">
+            <div class="welcome__block">
+              <img src="assets/icons/logo-big.svg" alt="Rine VR">
+              <p>In a world where reality is never enough,<br><span>We are the future.</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="logos">
+        <div class="logos__container _container">
+          <div class="logos__content">
+            <img src="assets/icons/forbes.svg" alt="">
+            <img src="assets/icons/business.svg" alt="">
+            <img src="assets/icons/cointele.svg" alt="">
+            <img src="assets/icons/cnbs.svg" alt="">
+            <img src="assets/icons/bloomberg.svg" alt="">
+          </div>
+        </div>
+      </section>
+      <section id="explore" class="explore">
+        <img class="explore-ellipse ellipse-1" src="assets/icons/ellipse-1.svg" alt="">
+        <img class="explore-ellipse ellipse-2" src="assets/icons/ellipse-2.svg" alt="">
+        <div class="explore__container _container">
+          <div class="explore__content">
+            <div class="explore__block">
+              <span>explore</span>
+              <h2>Reality Is Never Enough is a Virtual Reality platform accessible through Oculus and via RINE VR App.
+                It’s a parallel universe where you can join the best NFT, design, fashion, jewellery, automotive and luxury properties departments.</h2>
+            </div>
+            <img class="explore-arrow" src="assets/icons/arrow-bottom.svg" alt="">
+            <div class="explore__block">
+              <img src="assets/images/explore.png" alt="">
+              <h4>Immerse yourself in a realistic 3D universe and explore new worlds, meet people from around the globe, and participate in unforgettable experiences.
+                Browse and buy real products from your favourite brands, create your own personal space, join exclusive virtual events, and enjoy a range of exciting activities.
+                Join us today and start exploring the metaverse like never before!</h4>
+            </div>
+            <div class="explore__btn-line">
+              <div class="explore__btn">
+                <span>Join the Whitelist</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="utility">
+        <div class="utility1 _container">
+          <div class="utility1__container">
+            <div class="utility1__content">
+              <div class="utility1__block">
+                <div class="utility1__text">
+                  <h5>Metaverse Virtual Events & Experiences</h5>
+                  <p>Bring the real world into the metaverse and experience it like never before.
+                    Host exclusive events, meet your favorite celebrities and explore new worlds in the metaverse with RINE VR's events platform.</p>
+                </div>
+              </div>
+              <div class="utility1__main">
+                <span>Utility</span>
+                <div class="utility1__images">
+                  <img class="utility1__main-img" src="assets/images/utility1-main.png" alt="">
+                  <img class="utility1__comp" src="assets/images/utility1-comp.png" alt="">
+                  <img class="utility1__vr" src="assets/images/utility1-vr.png" alt="">
+                </div>
+              </div>
+              <div class="utility1__block">
+                <div class="utility1__text">
+                  <h5>Realistic Virtual Experience</h5>
+                  <p>Feel like you're in a real space with our realistic virtual environment that provides unparalleled immersion and connection.
+                    Our cutting-edge technology offers realistic 3D visuals and audio for a one-of-a-kind experience.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="utility2 _container">
+          <div class="utility2__container">
+            <div class="utility2__content">
+              <img src="assets/images/utility2.png" alt="">
+              <div class="utility2__block">
+                <h2>Utility pass</h2>
+                <p>RINE VR's NFT project, Platinum Membership, is an exciting opportunity to support the platform's growth and development while gaining access to exclusive benefits.
+                  With the purchase of this membership, you will gain Platinum status, which provides free access to virtual and real events, priority in purchasing virtual spaces,
+                  and maximum involvement in the platform's news, updates and investment opportunities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="utility3">
+        <div class="utility3__container _container">
+          <div class="utility3__content">
+            <div class="utility3__switchers">
+              <div class="utility3__switch utility3__switch1" data-tab="utility3-1">
+                <span></span><span></span><span></span><span></span><span></span><p>Vision</p>
+              </div>
+              <div class="utility3__switch utility3__switch2" data-tab="utility3-2">
+                <span></span><span></span><span></span><span></span><span></span><p>perks</p>
+              </div>
+            </div>
+            <div class="utility3__blocks">
+              <div id="utility3-1" class="utility3__block utility3__block1">
+                <div class="utility3__text">
+                  <p>RINE VR is more than just a virtual reality platform - it's a community of like-minded individuals who share a passion for innovation, creativity, and exploration.
+                    Our vision is to create a metaverse that's not only immersive and entertaining but also empowering and transformative.</p>
+                  <p>Whether you're a business owner looking to expand your reach, an artist seeking a new medium for expression, or simply someone looking to connect with others,
+                    RINE VR provides the tools and resources you need to succeed.</p>
+                  <p>At the core of our platform is the belief that the metaverse should be a place of inclusivity, diversity, and openness. We're dedicated to fostering
+                    an environment where all voices are heard, all ideas are welcome, and all individuals are respected.</p>
+                  <p>As a Platinum NFT member, you'll have the unique opportunity to be involved in the design and development of future RINE spaces and features, shaping
+                    the evolution of the metaverse. Join us in building a more collaborative, more inclusive future for virtual reality. Join us in the RINE metaverse and
+                    discover the limitless potential of virtual reality. With our cutting-edge technology, creative community, and forward-thinking approach,the possibilities
+                    are endless. So come on in, explore, and see what the future of digital interaction looks like.</p>
+                </div>
+                <div class="utility3__image">
+                  <img src="assets/images/utility3-1.png" alt="">
+                </div>
+              </div>
+              <div id="utility3-2" class="utility3__block utility3__block2">
+                <div class="utility3__text">
+                  <ul>
+                    <li>Access to exclusive virtual events featuring VIP guests and performers</li>
+                    <li>Discounts on virtual real estate and other digital assets</li>
+                    <li>Early access to new features and updates</li>
+                    <li>Priority customer support</li>
+                    <li>Access to premium virtual spaces for hosting events and meetings</li>
+                    <li>Customizable personal spaces with 3D designs and decor options</li>
+                    <li>Opportunities to collaborate on future RINE VR projects and features</li>
+                    <li>Access to exclusive merchandise and virtual products from partner brands</li>
+                    <li>Networking opportunities with like-minded individuals and industry professionals</li>
+                    <li>Access to educational resources and workshops for virtual reality development and design.</li>
+                  </ul>
+                  <p>As a Platinum NFT member, you'll enjoy all of these perks and more, including the ability to shape the future of the RINE metaverse through your feedback and
+                    collaboration. Join our community today and experience the full potential of virtual reality!</p>
+                </div>
+                <div class="utility3__image">
+                  <img src="assets/images/utility3-2.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="roadmap" class="roadmap">
+        <div class="roadmap__container _container">
+          <div class="roadmap__content">
+            <div class="roadmap__text">
+              <h2>Development roadmap</h2>
+              <p>Consolidating our application in accordance with the new meteverse utilities, reinforcing the cloud environment and investing
+                in the promotion and marketing of NFTs for access to the RINE space.</p>
+            </div>
+            <div class="roadmap__slider">
+              <div class="roadmap__list"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team" class="team">
+        <div class="team__container _container">
+          <div class="team__content">
+            <div class="team__block">
+              <span>Team</span>
+              <div class="team__cards">
+                <div class="team__item">
+                  <img src="assets/images/team/team-1.png" alt="Antonio Longhin">
+                  <div class="team__item-info">
+                    <h5>Antonio Longhin</h5>
+                    <span>Business Developer</span>
+                    <p>Strategic thinker forging partnerships and driving growth for RINE VR.</p>
+                  </div>
+                </div>
+                <div class="team__item">
+                  <img src="assets/images/team/team-2.png" alt="Cristiano Piccini">
+                  <div class="team__item-info">
+                    <h5>Cristiano Piccini</h5>
+                    <span>CEO</span>
+                    <p>Experienced entrepreneur leading RINE VR's vision for a transformative metaverse.</p>
+                  </div>
+                </div>
+                <div class="team__item">
+                  <img src="assets/images/team/team-3.png" alt="Fabio Cesarato">
+                  <div class="team__item-info">
+                    <h5>Fabio Cesarato</h5>
+                    <span>CTO</span>
+                    <p>Innovative technologist driving RINE VR's cutting-edge platform development.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2>We are proud to be supported by Leahgacy and Airlapp (airlapp.com), two powerful companies dedicated to advancing the field of virtual reality.
+              Together with their expert teams and extensive knowledge, we are creating a groundbreaking metaverse platform that is sure to revolutionize the way we interact
+              in the digital world. Learn more about our partners and their contributions on their respective websites.</h2>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="partners__container _container">
+          <div class="partners__content">
+            <div class="partners__block">
+              <span>Partners</span>
+              <div class="partners__slider">
+                <div class="partner">
+                  <div class="partner-inner">
+                    <img src="assets/images/partners/hodooi.png" alt="Hodooi">
+                  </div>
+                </div>
+                <div class="partner">
+                  <div class="partner-inner">
+                    <img src="assets/images/partners/piccini.png" alt="Piccini">
+                  </div>
+                </div>
+                <div class="partner">
+                  <div class="partner-inner">
+                    <img src="assets/images/partners/the-complainers.png" alt="The complainers">
+                  </div>
+                </div>
+                <div class="partner">
+                  <div class="partner-inner">
+                    <img src="assets/images/partners/trececasas.png" alt="Trececasas">
+                  </div>
+                </div>
+                <div class="partner">
+                  <div class="partner-inner">
+                    <img src="assets/images/partners/bici.png" alt="Bici">
+                  </div>
+                </div>
+                <div class="partner">
+                  <div class="partner-inner">
+                    <img src="assets/images/partners/coccolebimbi.png" alt="Coccolebimbi">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="partners__box">
+              <img src="assets/images/partners-img.png" alt="">
+              <div class="partners__info">
+                <p>In a world where reality is never enough,<br><span>We are the future.</span></p>
+                <div class="explore__btn-line">
+                  <div class="explore__btn">
+                    <span>Join the Whitelist</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq" class="faq">
+        <div class="faq__container _container">
+          <div class="faq__content">
+            <span>Faq</span>
+            <div class="faq__accordion js-accordion"></div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="contact__container _container">
+          <div class="contact__content">
+            <h3>Let’s talk</h3>
+            <div class="contact__block">
+              <form action="#" class="form" method="POST">
+                <div class="form__block">
+                  <div class="form__row">
+                    <div class="form__field">
+                      <input type="text" id="name" name="name" placeholder="Name*">
+                    </div>
+                    <div class="form__field">
+                      <input type="text" id="email" name="email" placeholder="Email address*">
+                    </div>
+                  </div>
+                  <div class="form__row">
+                    <div class="form__field">
+                      <input type="text" id="telegram" name="telegram" placeholder="Telegram username*">
+                    </div>
+                    <div class="form__field">
+                      <input type="text" id="subject" name="subject" placeholder="Subject*">
+                    </div>
+                  </div>
+                  <div class="form__row">
+                    <div class="form__field">
+                      <input type="text" id="socials" name="socials" placeholder="Socials (website/ twitter etc.)*">
+                    </div>
+                  </div>
+                  <div class="form__row">
+                    <div class="form__field">
+                      <input type="text" id="message" name="message" placeholder="Message*">
+                    </div>
+                  </div>
+                </div>
+                <button class="explore__btn-line" type="submit">
+                  <div class="explore__btn">
+                    <span>Submit</span>
+                  </div>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container _container">
+        <div class="footer__content">
+          <img src="assets/icons/logo.svg" alt="">
+          <ul class="footer__menu">
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#utility">Utility</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Let’s talk</a></li>
+          </ul>
+          <div class="footer__socials">
+            <div class="header__twitter">
+              <svg width="32" height="27" viewBox="0 0 32 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.1157 26.4999C22.0854 26.4999 28.6312 16.498 28.6312 7.82472C28.6312 7.54066 28.6255 7.25789 28.6128 6.9763C29.8864 6.04682 30.9856 4.8959 31.8589 3.5775C30.6929 4.10031 29.4381 4.45221 28.1219 4.61088C29.4654 3.79821 30.4968 2.51287 30.9835 0.980513C29.706 1.7449 28.3085 2.28371 26.8512 2.57374C25.6637 1.29796 23.9732 0.5 22.1011 0.5C18.5074 0.5 15.5932 3.43944 15.5932 7.06272C15.5932 7.5778 15.6503 8.07882 15.762 8.55933C10.3535 8.28483 5.55757 5.67303 2.34789 1.70161C1.76981 2.7032 1.46572 3.84163 1.46671 5.00057C1.46671 7.27775 2.61558 9.28805 4.36261 10.4641C3.32923 10.4323 2.31851 10.1508 1.41541 9.64317C1.41445 9.67076 1.41445 9.6976 1.41445 9.72701C1.41445 12.9057 3.65758 15.5597 6.63523 16.1611C6.07598 16.3148 5.4989 16.3925 4.91927 16.3922C4.50879 16.3919 4.09926 16.3522 3.69622 16.2737C4.52471 18.8817 6.92707 20.7795 9.7753 20.8325C7.54802 22.5933 4.74227 23.642 1.69288 23.642C1.16826 23.642 0.650026 23.612 0.140625 23.5512C3.02067 25.4132 6.44045 26.4996 10.116 26.4996" fill="white"/>
+              </svg>
+            </div>
+            <div class="header__discord">
+              <svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.529 0.333496H3.47122C1.86411 0.333496 0.555664 1.68283 0.555664 3.35483V23.1842C0.555664 24.8562 1.86411 26.2055 3.47122 26.2055H19.5992L18.8454 23.4922L20.6659 25.2375L22.3868 26.8802L25.4446 29.6668V3.35483C25.4446 1.68283 24.1361 0.333496 22.529 0.333496ZM17.0392 19.4882C17.0392 19.4882 16.5272 18.8575 16.1006 18.3002C17.9637 17.7575 18.6748 16.5548 18.6748 16.5548C18.0917 16.9508 17.537 17.2295 17.0392 17.4202C16.3281 17.7282 15.6454 17.9335 14.977 18.0508C13.6117 18.3148 12.3601 18.2415 11.2934 18.0362C10.4828 17.8748 9.78589 17.6402 9.20278 17.4055C8.87566 17.2735 8.52011 17.1122 8.16455 16.9068C8.12189 16.8775 8.07922 16.8628 8.03655 16.8335C8.00811 16.8188 7.99389 16.8042 7.97966 16.7895C7.72366 16.6428 7.58144 16.5402 7.58144 16.5402C7.58144 16.5402 8.26411 17.7135 10.0703 18.2708C9.64366 18.8282 9.11744 19.4882 9.11744 19.4882C5.97433 19.3855 4.77966 17.2588 4.77966 17.2588C4.77966 12.5362 6.82766 8.70816 6.82766 8.70816C8.87566 7.12416 10.8241 7.16816 10.8241 7.16816L10.9663 7.34416C8.40633 8.10683 7.22589 9.2655 7.22589 9.2655C7.22589 9.2655 7.53878 9.0895 8.065 8.84016C9.58677 8.15083 10.7957 7.96016 11.2934 7.91616C11.3788 7.9015 11.4499 7.88683 11.5352 7.88683C12.4028 7.7695 13.3841 7.74016 14.4081 7.8575C15.7592 8.01883 17.2099 8.4295 18.689 9.2655C18.689 9.2655 17.5654 8.1655 15.1477 7.40283L15.3468 7.16816C15.3468 7.16816 17.2952 7.12416 19.3432 8.70816C19.3432 8.70816 21.3912 12.5362 21.3912 17.2588C21.3912 17.2588 20.1823 19.3855 17.0392 19.4882Z" fill="white"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
