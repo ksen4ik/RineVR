@@ -863,17 +863,14 @@ body {
   gap: 16px;
 }
 .faq__item {
-  padding: 16px 24px 0px 24px;
+  padding: 0px 24px;
   width: 100%;
   background: rgb(14, 16, 28);
   border-radius: 5px;
   border: 1px solid rgb(6, 28, 101);
 }
-.faq__item.active {
-  padding: 16px 24px 24px 24px;
-}
 .faq__title {
-  padding-bottom: 16px;
+  padding: 16px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -921,7 +918,7 @@ body {
 }
 
 .faq__body {
-  padding: 16px 0px 0px;
+  padding: 16px 0px;
   display: none;
   border-top: 2px solid rgb(72, 72, 72);
 }
